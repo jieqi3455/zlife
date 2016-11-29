@@ -1,0 +1,253 @@
+/*
+ * 智慧电管件CSS
+ */
+
+/*
+ * 初始化页面样式
+ */
+ p,ul,h1,h2,h3,h4,h5,input{padding: 0;margin:0;}
+li{list-style: none;}
+a:link,a:visited,a:hover,a:active{text-decoration: none; cursor: pointer;}
+body{
+  margin: 0;
+  padding: 0;
+}
+.panel {
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo {
+	width: 164px;
+	height: 40px;
+	display: inline-block;
+	background: url(./img/logo.png) no-repeat;
+}
+
+/*
+ * 头部样式
+ */
+.header {
+	background: #0a0b08;
+	height: 60px;
+}
+.header .menu {
+	float: right;
+	overflow: hidden;
+}
+.header .menu li {
+	float: left;
+	border-bottom: 3px solid #0a0b08;
+	text-align: center;
+	line-height: 57px;
+}
+.header .menu a {
+	display: block;
+	width: 100px;
+	color: #01a6de;
+	font-size: 16px;
+}
+.header .menu li.active {
+	border-color: #f29400;
+}
+.header .menu a:hover,
+.header .menu a:active {
+	color: #01a6de;
+}
+
+/*
+ * 内容区域公共样式
+ */
+.module .title {
+ 	text-align: center;
+ 	padding: 40px 0 25px 0;
+}
+.module .title h2 {
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+}
+.module .title .en-txt {
+	font-size: 18px;
+	color: #999;
+	margin-top: 2px;
+}
+.module .title .arrow-icon {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #f29400;
+	height: 35px;
+	width: 35px;
+	margin-top: 10px;
+}
+.panel {
+	box-sizing: border-box;
+	height: 540px;
+}
+.detail {
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+}
+.detail p {
+	margin-bottom: 10px;
+}
+
+.bottom{
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 2;/*兼容ie8-*/
+}
+.bottom-arrow1,.bottom-arrow2{
+    width:0;
+    height:0;
+    display:block;
+    position:absolute;
+    left:7px;
+    top:12px;
+    z-index: 5;/*兼容ie8-*/
+    border-bottom:10px transparent dashed;
+    border-left:10px transparent dashed;
+    border-right:10px transparent dashed;
+    border-top:10px white solid;
+    overflow:hidden;
+}
+.bottom-arrow1{
+    top:13px;/*重要*/
+    border-top:10px #f29400 solid;
+}
+.bottom-arrow2{
+    border-top:10px white solid;
+}
+
+/*
+ * 电脑管家
+ */
+
+ .ad-module {
+ 	background: url(./img/bg.png);
+ 	height: 540px;
+ 	color: #fff;
+ }
+ .ad-module .panel {
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	height: 540px;
+ 	padding-top: 145px;
+ 	background: url(./img/phone.png) no-repeat bottom right;
+ }
+ .ad-module h2 {
+ 	font-size: 40px;
+ 	margin-bottom: 15px;
+ }
+ .ad-module p {
+  	font-size: 18px;
+  	margin-bottom: 15px;
+ }
+ .ad-module .link-btn {
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	background: #f29400;
+ 	padding: 10px 35px;
+ 	border-radius: 10px;
+ 	box-shadow: 0px -2px 2px 0px rgb(192, 180, 162);
+ }
+ .ad-module .arrow {
+ 	background: url(./img/arrow.png) no-repeat;
+ 	width: 85px;
+ 	height: 63px;
+ 	position: absolute;
+ 	top: 106px;
+ 	left: -97px;
+ }
+
+
+ /*
+  * 智能家居
+  */
+ .smart-module .smart-list {
+  	margin-top: 84px;
+ }
+ .smart-module .smart-list ul {
+  	overflow: hidden;
+  }
+ .smart-module .smart-list li {
+ 	float: left;
+ 	width: 25%;
+ 	text-align: center;
+ }
+ .smart-module .functon-img {
+ 	background: url('./img/spirit.png');
+ 	height: 122px;
+ 	width: 122px;
+ 	margin: 0 auto;
+ }
+ .smart-module .header-icon {
+ 	background-position: 0 0;
+ }
+ .smart-module .eye-icon {
+ 	background-position: 0 -122px;
+ }
+ .smart-module .help-icon {
+ 	background-position: 0 -244px;
+ }
+ .smart-module .safe-icon {
+ 	background-position: 0 -366px;
+ }
+
+ /*
+  * 案例展示
+  */
+.case-module {
+	background: #000;
+}
+.case-module .title h2 {
+	color: #fff;
+}
+.case-module .case-list {
+	margin-top: 30px;
+}
+.case-module .case-list li {
+	float: left;
+	height: 145px;
+	width: 25%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.case-module .case-list li img {
+	width: 100%;
+	height: 145px;
+	margin: 0 10px;
+}
+.case-module .case-list ul {
+	overflow: hidden;
+	margin: 0 -10px;
+}
+.case-module .bottom-arrow2 {
+	border-top:10px #000 solid;
+}
+/*
+ * 智创能源
+ */
+.fcreate-module .panel {
+	background: url(./img/fcreate.png) no-repeat bottom center;
+}
+
+/*
+ * 前沿资讯
+ */
+.frontier-module {
+	background: url(./img/bg.png) no-repeat;
+}
+.frontier-module .title h2 {
+	color: #fff;
+}
+.frontier-module .detail p {
+	color: #fff;
+}
+.frontier-module .bottom-arrow2 {
+	border-top:10px #029bd7 solid;
+}
