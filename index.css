@@ -251,3 +251,82 @@ body{
 .frontier-module .bottom-arrow2 {
 	border-top:10px #029bd7 solid;
 }
+.frontier-module .frontier-list {
+	overflow: hidden;
+	padding-top: 30px;
+}
+.frontier-module .des-box p {
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+.frontier-module .des-box p strong {
+	font-size: 14px;
+	color: #000;
+	padding-bottom: 5px;
+	display: block;
+}
+.frontier-module .des-wrapper {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+}
+.frontier-module .des-icon i{
+	background: url(./img/spirit.png) no-repeat;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+}
+.frontier-module .des-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	line-height: 35px;
+    text-align: center;	
+    background: #01a6de;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+.frontier-module .left-box {
+	text-align: right;
+	padding-right: 30px;
+}
+.frontier-module .line {
+	width: 3px;
+	background: #fff;
+	height: 322px;
+    position: absolute;
+    left: 50%;
+    z-index: 0;	
+    margin-left: -1px;
+}
+.frontier-module .right-box {
+	text-align: left;
+	padding-left: 30px;
+}
+.frontier-module .des-wrapper .des-box:first-child {
+	margin-bottom: 96px;
+}
+.frontier-module .left-box .des-box:first-child {
+	margin-top: 85px;
+}
+.frontier-module .left-box .des-box .des-icon {
+	float: right;
+	margin-right: -45px;
+}
+.frontier-module .right-box .des-box .des-icon {
+	float: left;
+	margin-left: -45px;
+}
+.frontier-module .left-box .des1 .des-icon i,
+.frontier-module .right-box .des1 .des-icon i {
+	background-position: -124px -192px;
+}
+.frontier-module .left-box .des2 .des-icon i,
+.frontier-module .right-box .des2 .des-icon i {
+	background-position: -124px -222px;
+}
